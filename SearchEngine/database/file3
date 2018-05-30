@@ -1,0 +1,15 @@
+Hello everyone..
+I am doing C Programming in Ubuntu G++ compiler
+
+in one program i need to come out out the code 
+
+
+#include<stdio.h>
+char c;
+while( (c=getchar())!= EOF)
+printf("something\n");
+printf("end of file\n");
+
+
+while running this program, which word to type to get out of while loop.
+Thanks

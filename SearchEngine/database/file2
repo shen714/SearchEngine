@@ -1,0 +1,13 @@
+True, but the OP's problem is that 'c' is a char in his program. If he'd change
+it to an 'int' type the test for EOF would work as expected. The -1 value (which
+is the EOF) value is truncated to 8 bits for the char and most likely his char
+type is unsigned, so that -1 value comes out again as 255 which definitely isn't
+equal to -1. Making 'c' an int eliminates the truncation.
+
+
+haha
+hehe
+
+kind regards,
+
+Jos
